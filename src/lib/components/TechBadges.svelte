@@ -1,0 +1,22 @@
+<div class="flex h-5 gap-1">
+	<img
+		class="rounded"
+		src="https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square"
+		alt=""
+	/>
+	<img
+		class="rounded"
+		src="https://img.shields.io/badge/-SvelteKit-black?style=for-the-badge&logo=svelte&color=orangered&logoColor=white"
+		alt=""
+	/>
+	<img
+		class="rounded"
+		src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"
+		alt=""
+	/>
+	<img
+		class="rounded"
+		src="https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white"
+		alt=""
+	/>
+</div>
