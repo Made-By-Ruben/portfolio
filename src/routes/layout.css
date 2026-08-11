@@ -1,2 +1,22 @@
 @import 'tailwindcss';
 
+@theme {}
+
+@utility section {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--spacing) * 5)
+        /* 1.25rem = 20px */
+    ;
+}
+
+@layer base {
+    h1 {
+        font-size: var(--text-2xl);
+        font-weight: var(--font-weight-bold);
+    }
+    h2 {
+        font-size: var(--text-xl);
+        font-weight: var(--font-weight-bold);
+    }
+}
