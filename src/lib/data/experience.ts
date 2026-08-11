@@ -1,6 +1,6 @@
 import staatsbosbeheerLogo from '$lib/assets/staatsbosbeheerLogo.avif';
-import gamewavesLogo from '$lib/assets/gamewavesLogo.avif'
-import growGGLogo from '$lib/assets/growGGLogo.avif'
+import gamewavesLogo from '$lib/assets/gamewavesLogo.avif';
+import growGGLogo from '$lib/assets/growGGLogo.avif';
 
 type WorkExperience = {
 	id: number;
@@ -38,8 +38,7 @@ export const workExperience: WorkExperience[] = [
 		jobTitle: 'Founder',
 		milestonesNl: [
 			'Een full stack applicatie ontwikkeld in Go en Svelte 5 wat game simulatie bestanden parsed naar leesbare data en hier belangrijke momenten uit filtert en te structureert voor een front-end; een online 2D herhalings-systeem voor het analyseren van gefilterde data uit gespeelde wedstrijden.',
-			'Een voor conversie geoptimaliseerde landing page ontwikkeld met Svelte 5, Firebase en Vercel wat, zonder betaald verkeer, heeft geleid tot 30+ wachtlijst aanmeldingen van de 500+ unieke bezoekers.',
-			'Een agile team van zes ontwikkelaars geleid een innovatieve oplossing te bedenken om aspirante e-sporters te helpen met het trainen van strategische keuzes maken tijdens het spelen van hun wedstrijden.'
+			'Een voor conversie geoptimaliseerde landing page ontwikkeld met Svelte 5, Firebase en Vercel wat, zonder betaald verkeer, heeft geleid tot 30+ wachtlijst aanmeldingen van de 500+ unieke bezoekers.'
 		],
 		milstonesEng: ['todo']
 	},
