@@ -4,7 +4,6 @@
 	import GitHub from 'virtual:icons/fa7-brands/github';
 	import TechBadges from '$lib/components/TechBadges.svelte';
 	import Experience from '$lib/components/Experience.svelte';
-	import { projects } from '$lib/data/projects';
 	import Projects from '$lib/components/Projects.svelte';
 
 	const linkedInUrl = 'https://www.linkedin.com/in/ruben-verhoef-00bb47267/';
