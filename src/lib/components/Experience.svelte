@@ -2,7 +2,7 @@
 	import { workExperience } from '$lib/data/experience';
 </script>
 
-<ul class="relative max-w-2xl rounded-2xl shadow shadow-gray-400">
+<ul class="relative rounded-2xl shadow shadow-gray-400">
 	<div class="absolute left-13 h-full w-0.5 bg-gray-200"></div>
 	{#each workExperience as experience}
 		<li class="ml-20 p-5">

@@ -5,12 +5,13 @@
 	import TechBadges from '$lib/components/TechBadges.svelte';
 	import Experience from '$lib/components/Experience.svelte';
 	import { projects } from '$lib/data/projects';
+	import Projects from '$lib/components/Projects.svelte';
 
 	const linkedInUrl = 'https://www.linkedin.com/in/ruben-verhoef-00bb47267/';
 	const gitHubUrl = 'https://github.com/Made-By-Ruben';
 </script>
 
-<main class="flex h-screen w-full flex-col items-center gap-5 p-10">
+<main class="flex h-screen w-full flex-col items-center gap-10 p-10">
 	<section class="section items-center gap-0">
 		<img src={me} class="h-44 rounded-full pb-5" />
 		<div class="flex">
@@ -35,16 +36,10 @@
 	</section>
 
 	<section class="section">
-		<h1>My Projects</h1>
-
-		<div class="grid rounded-2xl shadow shadow-gray-400">
-			{#each projects as project}
-				<div class="p-5">
-					<img class="" src={project.heroImage} />
-					<h2>{project.title}</h2>
-					<p>{project.description}</p>
-				</div>
-			{/each}
-		</div>
+		<header class="flex items-center justify-between">
+			<h1>My Projects</h1>
+			<a href="./projects">See More</a>
+		</header>
+		<Projects />
 	</section>
 </main>

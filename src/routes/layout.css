@@ -5,9 +5,10 @@
 @utility section {
     display: flex;
     flex-direction: column;
-    gap: calc(var(--spacing) * 5)
+    gap: calc(var(--spacing) * 3)
         /* 1.25rem = 20px */
     ;
+    max-width: var(--container-4xl);
 }
 
 @layer base {
