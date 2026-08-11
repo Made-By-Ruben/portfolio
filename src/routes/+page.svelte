@@ -5,6 +5,8 @@
 	import TechBadges from '$lib/components/TechBadges.svelte';
 	import Experience from '$lib/components/Experience.svelte';
 	import Projects from '$lib/components/Projects.svelte';
+	import CopyEmail from '$lib/components/CopyEmail.svelte';
+
 
 	const linkedInUrl = 'https://www.linkedin.com/in/ruben-verhoef-00bb47267/';
 	const gitHubUrl = 'https://github.com/Made-By-Ruben';
@@ -26,6 +28,7 @@
 			<h1 class="text-3xl font-bold">Hi, I'm Ruben.</h1>
 			<p class="pb-1">A 24yo software engineer from The Netherlands 🇳🇱</p>
 			<TechBadges />
+			<CopyEmail />
 		</div>
 	</section>
 
