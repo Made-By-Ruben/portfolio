@@ -13,29 +13,34 @@
 </script>
 
 <main class="flex h-screen w-full flex-col items-center gap-10 p-10">
-	<section class="section items-center gap-0">
-		<img src={me} class="h-44 rounded-full pb-5" />
-		<div class="flex">
-			<a href={linkedInUrl} target="_blank">
-				<LinkedIn />
-			</a>
-			<a href={gitHubUrl} target="_blank">
-				<GitHub />
-			</a>
-		</div>
+	<section class="section items-center gap-0 md:w-full md:flex-row-reverse md:justify-evenly">
+		<img src={me} class="h-44 rounded-full pb-5 md:h-60" />
 
 		<div class="flex flex-col items-center">
-			<h1 class="text-3xl font-bold">Hi, I'm Ruben.</h1>
-			<p class="pb-1">A 24yo software engineer from The Netherlands 🇳🇱</p>
-			<!-- <TechBadges /> -->
+			<div class="flex flex-col">
+				<h1 class="text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">Hi, I'm Ruben.</h1>
+				<p class="pb-1 lg:text-xl">A 24yo software engineer from The Netherlands 🇳🇱</p>
+				<!-- <TechBadges /> -->
 
-			<div class="flex gap-1">
-				<a href={CV} target="_blank" class="btn">
-					<PdfIcon />
-					<span>Resume</span>
-				</a>
+				<div class="flex w-full justify-between">
+					<div class="flex gap-1">
+						<a href={CV} target="_blank" class="btn">
+							<PdfIcon />
+							<span>Resume</span>
+						</a>
 
-				<CopyEmail />
+						<CopyEmail />
+					</div>
+
+					<div class="flex items-center justify-center">
+						<a href={linkedInUrl} target="_blank">
+							<LinkedIn />
+						</a>
+						<a href={gitHubUrl} target="_blank">
+							<GitHub />
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
