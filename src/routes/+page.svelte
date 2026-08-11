@@ -2,11 +2,11 @@
 	import me from '$lib/assets/Me.avif';
 	import LinkedIn from 'virtual:icons/fa7-brands/linkedin';
 	import GitHub from 'virtual:icons/fa7-brands/github';
-	import TechBadges from '$lib/components/TechBadges.svelte';
 	import Experience from '$lib/components/Experience.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 	import CopyEmail from '$lib/components/CopyEmail.svelte';
-
+	import PdfIcon from 'virtual:icons/fa7-regular/file-pdf';
+	import CV from '$lib/assets/Ruben_Verhoef_SoftwareEngineer_2026.pdf';
 
 	const linkedInUrl = 'https://www.linkedin.com/in/ruben-verhoef-00bb47267/';
 	const gitHubUrl = 'https://github.com/Made-By-Ruben';
@@ -27,8 +27,16 @@
 		<div class="flex flex-col items-center">
 			<h1 class="text-3xl font-bold">Hi, I'm Ruben.</h1>
 			<p class="pb-1">A 24yo software engineer from The Netherlands 🇳🇱</p>
-			<TechBadges />
-			<CopyEmail />
+			<!-- <TechBadges /> -->
+
+			<div class="flex gap-1">
+				<a href={CV} target="_blank" class="btn">
+					<PdfIcon />
+					<span>Resume</span>
+				</a>
+
+				<CopyEmail />
+			</div>
 		</div>
 	</section>
 

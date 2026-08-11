@@ -12,7 +12,7 @@
 </script>
 
 <button
-	class="mt-2 flex cursor-pointer items-center gap-2 rounded bg-gray-900 px-2 py-1 text-sm font-semibold text-white"
+	class="btn"
 	onclick={() => copyMail()}
 >
 	{#if copiedEmail}
@@ -20,6 +20,6 @@
 		<span class="">Copied!</span>
 	{:else}
 		<span in:scale><MailIcon /></span>
-		<span class="">My Email</span>
+		<span class="">Email</span>
 	{/if}
 </button>

@@ -11,6 +11,21 @@
     max-width: var(--container-4xl);
 }
 
+@utility btn {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing) * 2);
+    cursor: pointer;
+    padding-inline: calc(var(--spacing) * 2);
+    padding-block: calc(var(--spacing) * 1);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-gray-900);
+    color: var(--color-white);
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+    font-weight: var(--font-weight-semibold);
+}
+
 @layer base {
     h1 {
         font-size: var(--text-2xl);
