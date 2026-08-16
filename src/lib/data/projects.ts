@@ -1,5 +1,5 @@
-import rolHero from "$lib/assets/projectRolHero.avif"
-import greenInnovationHero from "$lib/assets/greenInnovationHero.avif"
+import rolHero from "$lib/assets/images/projectRolHero.avif"
+import greenInnovationHero from "$lib/assets/images/greenInnovationHero.avif"
 
 type project = {
     title: string;

@@ -1,12 +1,12 @@
 <script lang="ts">
-	import me from '$lib/assets/Me.avif';
+	import me from '$lib/assets/images/Me.avif';
 	import LinkedIn from 'virtual:icons/fa7-brands/linkedin';
 	import GitHub from 'virtual:icons/fa7-brands/github';
 	import Experience from '$lib/components/Experience.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 	import CopyEmail from '$lib/components/CopyEmail.svelte';
 	import PdfIcon from 'virtual:icons/fa7-regular/file-pdf';
-	import CV from '$lib/assets/Ruben_Verhoef_SoftwareEngineer_2026.pdf';
+	import CV from '$lib/assets/pdf/Ruben_Verhoef_SoftwareEngineer_2026.pdf';
 
 	const linkedInUrl = 'https://www.linkedin.com/in/ruben-verhoef-00bb47267/';
 	const gitHubUrl = 'https://github.com/Made-By-Ruben';

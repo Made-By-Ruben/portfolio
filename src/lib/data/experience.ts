@@ -1,6 +1,6 @@
-import staatsbosbeheerLogo from '$lib/assets/staatsbosbeheerLogo.avif';
-import gamewavesLogo from '$lib/assets/gamewavesLogo.avif';
-import growGGLogo from '$lib/assets/growGGLogo.avif';
+import staatsbosbeheerLogo from '$lib/assets/images/staatsbosbeheerLogo.avif';
+import gamewavesLogo from '$lib/assets/images/gamewavesLogo.avif';
+import growGGLogo from '$lib/assets/images/growGGLogo.avif';
 
 type WorkExperience = {
 	id: number;
