@@ -11,10 +11,7 @@
 	}
 </script>
 
-<button
-	class="btn"
-	onclick={() => copyMail()}
->
+<button class="btn" onclick={() => copyMail()}>
 	{#if copiedEmail}
 		<span in:scale><CheckCircle /></span>
 		<span class="">Copied!</span>

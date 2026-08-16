@@ -1,7 +1,5 @@
 @import 'tailwindcss';
 
-@theme {}
-
 @utility section {
     display: flex;
     flex-direction: column;
