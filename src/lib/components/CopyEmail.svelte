@@ -2,7 +2,8 @@
 	import { scale } from 'svelte/transition';
 	import MailIcon from 'virtual:icons/fa7-regular/envelope';
 	import CheckCircle from 'virtual:icons/fa7-regular/check-circle';
-	const email = 'ruben.leopold@gmail.com';
+
+	let {email} = $props()
 
 	let copiedEmail = $state(false);
 	async function copyMail() {

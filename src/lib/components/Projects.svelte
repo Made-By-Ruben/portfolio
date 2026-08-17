@@ -1,6 +1,6 @@
-<script>
-	import { projects } from '$lib/data/projects';
+<script lang="ts">
 	import GitHub from 'virtual:icons/fa7-brands/github';
+	let { projects } = $props();
 </script>
 
 <div class="grid grid-cols-1 gap-5 md:grid-cols-2">

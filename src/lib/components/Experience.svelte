@@ -1,5 +1,5 @@
 <script>
-	import { workExperience } from '$lib/data/experience';
+	let { workExperience } = $props();
 </script>
 
 <ul class="relative rounded-2xl shadow shadow-gray-400">
