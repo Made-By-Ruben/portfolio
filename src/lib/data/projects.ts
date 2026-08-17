@@ -1,10 +1,10 @@
-import rolHero from '$lib/assets/images/rolOverview1600X900.avif';
-import greenInnovationHero from '$lib/assets/images/greenInnovationHero.avif';
-import erlOverview from '$lib/assets/images/erlOverview.avif';
-import casterDesk from '$lib/assets/images/casterDesk1600X900.avif';
-import runtime1 from '$lib/assets/images/runtime1.avif';
-import runtime2 from '$lib/assets/images/runtime2.avif';
-import runtime3 from '$lib/assets/images/runtime3.avif';
+import rolHero from '$lib/assets/images/liveStats/rolOverview1600X900.avif';
+import greenInnovationHero from '$lib/assets/images/greenInnovation/greenInnovationHero.avif';
+import erlOverview from '$lib/assets/images/liveStats/erlOverview.avif';
+import casterDesk from '$lib/assets/images/liveStats/casterDesk1600X900.avif';
+import runtime1 from '$lib/assets/images/liveStats/runtime1.avif';
+import runtime2 from '$lib/assets/images/liveStats/runtime2.avif';
+import runtime3 from '$lib/assets/images/liveStats/runtime3.avif';
 
 
 type Project = {
