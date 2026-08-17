@@ -15,47 +15,45 @@
 	const gitHubUrl = 'https://github.com/Made-By-Ruben';
 </script>
 
-<main class="flex h-screen w-full flex-col items-center gap-10 p-10">
-	<section class="section items-center md:w-full md:flex-row-reverse md:justify-evenly">
-		<img src={me} class="h-44 rounded-full pb-5 md:h-60" />
+<section class="section items-center md:w-full md:flex-row-reverse md:justify-evenly">
+	<img src={me} class="h-44 rounded-full pb-5 md:h-60" />
 
-		<div class="flex flex-col">
-			<h1 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Hi, I'm Ruben.</h1>
-			<p class="pb-1 lg:text-xl">A 24yo software engineer from The Netherlands 🇳🇱</p>
-			<!-- <TechBadges /> -->
+	<div class="flex flex-col">
+		<h1 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Hi, I'm Ruben.</h1>
+		<p class="pb-1 lg:text-xl">A 24yo software engineer from The Netherlands 🇳🇱</p>
+		<!-- <TechBadges /> -->
 
-			<div class="flex w-full justify-between">
-				<div class="flex gap-1">
-					<a href={CV} target="_blank" class="btn">
-						<PdfIcon />
-						<span>Resume</span>
-					</a>
+		<div class="flex w-full justify-between">
+			<div class="flex gap-1">
+				<a href={CV} target="_blank" class="btn">
+					<PdfIcon />
+					<span>Resume</span>
+				</a>
 
-					<CopyEmail email={data.email} />
-				</div>
+				<CopyEmail email={data.email} />
+			</div>
 
-				<div class="flex items-center justify-center">
-					<a href={linkedInUrl} target="_blank">
-						<LinkedIn />
-					</a>
-					<a href={gitHubUrl} target="_blank">
-						<GitHub />
-					</a>
-				</div>
+			<div class="flex items-center justify-center">
+				<a href={linkedInUrl} target="_blank">
+					<LinkedIn />
+				</a>
+				<a href={gitHubUrl} target="_blank">
+					<GitHub />
+				</a>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<section class="section">
-		<h1>My Experience</h1>
-		<Experience workExperience={data.experience} />
-	</section>
+<section class="section">
+	<h1>My Experience</h1>
+	<Experience workExperience={data.experience} />
+</section>
 
-	<section class="section">
-		<header class="flex items-center justify-between">
-			<h1>My Projects</h1>
-			<a href="./projects">See More</a>
-		</header>
-		<Projects projects={data.projects} />
-	</section>
-</main>
+<section class="section" id="projects">
+	<header class="flex items-center justify-between">
+		<h1>My Projects</h1>
+		<a href="/projects">See More</a>
+	</header>
+	<Projects projects={data.projects} />
+</section>
