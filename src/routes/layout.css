@@ -34,7 +34,7 @@
         font-size: var(--text-xl);
         font-weight: var(--font-weight-bold);
     }
-
+    
     @media (prefers-reduced-motion: reduce) {
         html {
             scroll-behavior: auto;
