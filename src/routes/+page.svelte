@@ -4,8 +4,8 @@
 	import GitHub from 'virtual:icons/fa7-brands/github';
 	import Experience from '$lib/components/Experience.svelte';
 	import CopyEmail from '$lib/components/CopyEmail.svelte';
-	import PdfIcon from 'virtual:icons/fa7-regular/file-pdf';
-	import CV from '$lib/assets/pdf/Ruben_Verhoef_SoftwareEngineer_2026.pdf';
+	// import PdfIcon from 'virtual:icons/fa7-regular/file-pdf';
+	// import CV from '$lib/assets/pdf/Ruben_Verhoef_SoftwareEngineer_2026.pdf';
 	import type { PageProps } from './$types';
 	import Projects from '$lib/components/Projects.svelte';
 
