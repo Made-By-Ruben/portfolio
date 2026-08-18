@@ -5,12 +5,11 @@
 	import Experience from '$lib/components/Experience.svelte';
 	import CopyEmail from '$lib/components/CopyEmail.svelte';
 	import PdfIcon from 'virtual:icons/fa7-regular/file-pdf';
-	import CV from '$lib/assets/pdf/Ruben_Verhoef_SoftwareEngineer_2026.pdf';
 	import type { PageProps } from './$types';
 	import Projects from '$lib/components/Projects.svelte';
 
 	let { data }: PageProps = $props();
-
+	const cv = '/static/Ruben_Verhoef_SoftwareEngineer_2026.pdf'
 	const linkedInUrl = 'https://www.linkedin.com/in/ruben-verhoef-00bb47267/';
 	const gitHubUrl = 'https://github.com/Made-By-Ruben';
 </script>
@@ -25,7 +24,7 @@
 
 		<div class="flex w-full justify-between">
 			<div class="flex gap-1">
-				<a href={CV} target="_blank" class="btn">
+				<a href={cv} target="_blank" class="btn">
 					<PdfIcon />
 					<span>Resume</span>
 				</a>
