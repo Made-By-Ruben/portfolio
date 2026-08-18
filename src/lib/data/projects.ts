@@ -5,7 +5,9 @@ import casterDesk from '$lib/assets/images/liveStats/casterDesk1600X900.avif';
 import runtime1 from '$lib/assets/images/liveStats/runtime1.avif';
 import runtime2 from '$lib/assets/images/liveStats/runtime2.avif';
 import runtime3 from '$lib/assets/images/liveStats/runtime3.avif';
-
+import newGarden from '$lib/assets/images/greenInnovation/createNewGarden.avif';
+import plantSelection from '$lib/assets/images/greenInnovation/plantSelectionMenu.avif';
+import simResults from '$lib/assets/images/greenInnovation/simulationResults.avif';
 
 type Project = {
 	slug: string;
@@ -101,20 +103,32 @@ export const projects: Project[] = [
 			description:
 				'A web-based interactive tool for designing, planning, and simulating permaculture forest gardens. Built with the latest web technologies to provide a performant, infinite-canvas experience.',
 			heroImage: greenInnovationHero,
-			secondImage: erlOverview,
+			secondImage: plantSelection,
 			source: 'https://github.com/Made-By-Ruben/voedselBosApp',
 			techStack: ['TypeScript', 'SvelteKit', 'Konva', 'bits-ui', 'tailwindcss']
-		},
+		},	
 		details: [
 			{
-				image: rolHero,
-				sectionTitle: 'Title 1',
-				sectionBody: ['Body 1']
+				image: greenInnovationHero,
+				sectionTitle: '✨ Key Features',
+				sectionBody: [
+					'Infinite Canvas Navigation: A custom-built viewport system allowing users to drag and pan across large garden plots.',
+					'Terraforming System: Modify the landscape by adding water features (ponds/rivers) or marking terrain as unusable.',
+					'Interactive Minimap: A high-performance minimap built with Konva (HTML5 Canvas) that provides a real-time, scaled overview of the forest with a viewport overlay.',
+					'Planting System: Place specific plants with distinct attributes (Height, Habit, etc.) onto the grid.',
+					'State Persistence: Smart state handling that remembers your scroll position and selection even when navigating menus.',
+					'Simulation: (In Progress) Analyze the garden layout against environmental elements.'
+				]
 			},
 			{
-				image: rolHero,
-				sectionTitle: 'Title 2',
-				sectionBody: ['Body 2']
+				image: newGarden,
+				sectionTitle: 'Create a new garden',
+				sectionBody: ['']
+			},
+			{
+				image: simResults,
+				sectionTitle: 'Simulation Results',
+				sectionBody: ['']
 			}
 		]
 	}
