@@ -25,10 +25,10 @@
 
 		<div class="flex w-full justify-between">
 			<div class="flex gap-1">
-				<a href={CV} target="_blank" class="btn">
+				<!-- <a href={CV} target="_blank" class="btn">
 					<PdfIcon />
 					<span>Resume</span>
-				</a>
+				</a> -->
 
 				<CopyEmail email={data.email} />
 			</div>
