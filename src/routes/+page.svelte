@@ -4,8 +4,8 @@
 	import GitHub from 'virtual:icons/fa7-brands/github';
 	import Experience from '$lib/components/Experience.svelte';
 	import CopyEmail from '$lib/components/CopyEmail.svelte';
-	// import PdfIcon from 'virtual:icons/fa7-regular/file-pdf';
-	// import CV from '$lib/assets/pdf/Ruben_Verhoef_SoftwareEngineer_2026.pdf';
+	import PdfIcon from 'virtual:icons/fa7-regular/file-pdf';
+	import CV from '$lib/assets/pdf/Ruben_Verhoef_SoftwareEngineer_2026.pdf';
 	import type { PageProps } from './$types';
 	import Projects from '$lib/components/Projects.svelte';
 
@@ -25,10 +25,10 @@
 
 		<div class="flex w-full justify-between">
 			<div class="flex gap-1">
-				<!-- <a href={CV} target="_blank" class="btn">
+				<a href={CV} target="_blank" class="btn">
 					<PdfIcon />
 					<span>Resume</span>
-				</a> -->
+				</a>
 
 				<CopyEmail email={data.email} />
 			</div>
