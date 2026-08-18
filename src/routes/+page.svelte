@@ -16,7 +16,7 @@
 </script>
 
 <section class="section items-center md:w-full md:flex-row-reverse md:justify-evenly">
-	<img src={me} class="h-44 rounded-full pb-5 md:h-60" />
+	<img src={me} class="h-44 rounded-full pb-5 md:h-60" alt="profile" />
 
 	<div class="flex flex-col">
 		<h1 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Hi, I'm Ruben.</h1>
